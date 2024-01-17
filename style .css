@@ -59,14 +59,6 @@ input[type="submit"]:hover {
   border-color: var(--gray);
 }
 
-/* ... (previous styles) */
-
-/* ... (previous styles) */
-
-/* ... (previous styles) */
-
-/* ... (previous styles) */
-
 .emoji-card {
     display: flex;
     flex-direction: column;
@@ -77,10 +69,8 @@ input[type="submit"]:hover {
     border: 1px solid var(--gray);
     border-radius: 8px;
     float: left;
-    width: calc(25% - 2rem); /* 25% width for each card in a 4xN grid */
+    width: calc(25% - 2rem); 
   }
-  
-  /* ... (other styles) */
   
   .clearfix::after {
     content: "";
